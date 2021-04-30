@@ -1,0 +1,15 @@
+{
+  "name": "Ferry",
+  "description": "Ferry Problem",
+  "author": {
+    "name": "Jhon Garzón",
+    "email": "johngarzon86@gmail.com"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^8.3.2"
+  }
+}

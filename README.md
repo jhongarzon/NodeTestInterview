@@ -3,7 +3,7 @@
 ### Description
 
 - Node js project. Simulates the movement of a Ferry using cardinal coordinates (E, W, S, N).
-- Contains integration tests using mocha library.
+- Contains unit tests using mocha library.
 - Layers and responsibilities clearly defined.
 - Git/Github integration.
 

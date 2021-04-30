@@ -98,11 +98,11 @@ class ShipMovementHandler {
 
   convertDegreesToDirection(degrees) {
     if (degrees == 0) {
-      return "W";
+      return "E";
     } else if (degrees == 90 || degrees === -270) {
       return "N";
     } else if (degrees == 180 || degrees === -180) {
-      return "E";
+      return "W";
     } else if (degrees == 270 || degrees === -90) {
       return "S";
     } else {
@@ -115,9 +115,9 @@ class ShipMovementHandler {
         return 90;
       case "S":
         return 270;
-      case "E":
-        return 180;
       case "W":
+        return 180;
+      case "E":
         return 0;
       default:
         return -1;
